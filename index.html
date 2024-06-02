@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPLICATION METEO</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="./image/meteo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>APPLICATION METEO</h1>
+        </header>
+        <main>
+            <h2>Bienvenue Sur Metéo Viewer</h2>
+            <div>
+                <input type="text" id="cityInput" class="city" placeholder="Entrer une ville à rechercher...">
+                <button id="searchBtn" class="recherche">Rechercher</button>
+            </div>
+            <div id="weatherInfo">
+                <h1 id="erreur"></h1>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <h3>Done Using JavaScript</h3>
+    </footer>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
